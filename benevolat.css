@@ -1,0 +1,506 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family:century ; 
+box-sizing: border-box;
+    
+  }
+ 
+  
+ul, li {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+.header-area .main-nav .navbarre select{
+text-decoration: none;
+background-color: rgb(23, 23, 98);
+text-transform: uppercase;
+border: transparent;
+appearance: none;
+font-weight: 500;
+font-size: 14px;
+font-family: century;
+color:  rgb(236, 236, 243) ;
+}
+
+.header-area .main-nav .navbarre select:focus{
+outline-style: none;
+}
+.header-area .main-nav .navbarre  select:hover{
+color: white;
+background-color: rgb(23, 23, 98);
+transition: 0.5s ease-in-out;
+
+}
+
+
+
+.header-area .main-nav .navbarre option{
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+border: transparent;
+background-color:  rgb(23, 23, 98);
+
+appearance: none;    
+font-weight: 500;
+font-size: 14px; 
+}
+
+a{text-decoration: none;}
+
+
+.header-area .main-nav .navbarre{
+width: 100%;
+text-transform: uppercase;
+position: sticky;
+z-index: 9999;
+
+}
+
+
+
+.header-area {
+position: absolute;
+top: 0px;
+left: 0;
+right: 0;
+z-index: 9999;
+
+}
+.header-area .main-nav {
+min-height: 80px;
+background: white;
+display: flex;
+position: fixed;
+width: 100%;
+
+}
+.media-menu {
+margin-left: 0;
+
+}
+.header-area .main-nav .logo img {
+margin-top: 8%;
+float: left;
+width: 80px;
+height: 80px;
+margin-right: 80%;
+
+}
+
+.header-area .main-nav .nav {
+float: right;
+margin-left: 20%;
+background-color: transparent;
+}
+
+.header-area .main-nav .nav li {
+padding-left: 15px;
+padding-right: 15px;
+margin-right: 20px;
+margin-bottom: 20px;
+
+}
+
+
+
+.header-area .main-nav .nav li a {
+display: block;
+font-weight: 500;
+font-size: 14px;
+text-transform: uppercase;
+color: rgb(23, 23, 98);
+height: 40px;
+line-height: 40px;
+border: transparent;
+letter-spacing: 1px;
+background-color: rgb(236, 236, 243);
+padding: 2px;
+
+}
+.header-area .main-nav .nav li a:hover{
+transition: 0.6s ease-in-out;
+background-color: rgb(23, 23, 98);
+
+
+
+}
+
+.header-area .main-nav .nav li:hover a,
+.header-area .main-nav .nav li a.active {
+background-color: rgb(23, 23, 98);
+color: white;
+}
+
+
+
+
+
+
+
+
+.header-area .menu-trigger {
+  all: unset;
+display: none;
+width: 35px;
+position: absolute;
+top: 42%;
+right: 50px;
+z-index: 9999;
+}
+.header-area {
+min-height: 80px;
+}
+
+.header-area .nav {
+margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+ul, li {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+
+
+.header-area .main-nav .navbarre select{
+text-decoration: none;
+background-color: rgb(23, 23, 98);
+text-transform: uppercase;
+border: transparent;
+appearance: none;
+font-weight: 500;
+font-size: 14px;
+font-family: century;
+color:rgb(236, 236, 243) ;
+}
+
+.header-area .main-nav .navbarre select:focus{
+outline-style: none;
+}
+.header-area .main-nav .navbarre  select:hover{
+color: white;
+background-color: rgb(23, 23, 98);
+
+}
+
+
+
+.header-area .main-nav .navbarre option{
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+border: transparent;
+background-color:  rgb(23, 23, 98);
+
+appearance: none;    
+font-weight: 500;
+font-size: 14px; 
+}
+
+a{text-decoration: none;}
+
+
+.header-area .main-nav .navbarre{
+width: 100%;
+text-transform: uppercase;
+
+}
+
+
+
+.header-area {
+position: absolute;
+top: 0px;
+left: 0;
+right: 0;
+z-index: 9999;
+
+}
+.header-area .main-nav {
+min-height: 80px;
+background: white;
+display: flex;
+}
+.media-menu {
+margin-left: 0;
+
+}
+.header-area .main-nav .logo img {
+margin-top: 8%;
+float: left;
+width: 80px;
+height: 80px;
+margin-right: 80%;
+
+}
+
+.header-area .main-nav .nav {
+float: right;
+margin-left: 20%;
+background-color: transparent;
+}
+
+.header-area .main-nav .nav li {
+padding-left: 15px;
+padding-right: 15px;
+margin-right: 20px;
+margin-bottom: 20px;
+
+}
+
+
+
+.header-area .main-nav .nav li a {
+display: block;
+font-weight: 500;
+font-size: 14px;
+text-transform: uppercase;
+color: rgb(23, 23, 98);
+height: 40px;
+line-height: 40px;
+border: transparent;
+letter-spacing: 1px;
+background-color: rgb(236, 236, 243);
+padding: 2px;
+
+}
+.header-area .main-nav .nav li a:hover{
+transition: 0.6s ease-in-out;
+background-color: rgb(23, 23, 98);
+
+
+
+}
+
+.header-area .main-nav .nav li:hover a,
+.header-area .main-nav .nav li a.active {
+background-color: rgb(23, 23, 98);
+color: white;
+}
+
+
+.header-area {
+min-height: 80px;
+}
+
+.header-area .nav {
+margin-top: 30px;
+}
+
+  
+  @media (max-width: 1100px) {
+    .header-area .main-nav .nav li a{
+      background-color: transparent;
+    }
+    .header-area .main-nav .nav li a:hover{
+      background-color: transparent;
+  
+    }
+    .header-area .main-nav .nav li a.active {
+      background-color: transparent;
+      color: rgb(23, 23, 98);
+  
+    }
+    .header-area .main-nav .nav li a.active:hover {
+      background-color: transparent;
+      color: rgb(23, 23, 98);
+      color: white;
+  
+    }
+    .header-area .menu-trigger {
+      display: block;
+      top: 20%;
+    }
+  
+
+  
+  
+  
+    .header-area .main-nav .navbarre  {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 10% ;
+      right: 0%;
+      justify-content: center;
+      backdrop-filter: blur(8px);
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(231, 224, 174, 0.128);
+      visibility: hidden;
+      transition: 0.6s ease-in-out;
+      padding-right: 20%;
+
+  
+  }
+  
+  .header-area .main-nav .navbarre  select{
+    background-color: transparent;
+  }
+  .header-area .main-nav .navbarre  select:hover{
+    background-color: transparent;
+ 
+  
+  }
+  
+  .header-area .main-nav .nav{
+  
+    right: 10%;
+    top: 6% ;
+    
+  
+  }
+  
+  
+  .header-area .main-nav .navbarre.media-menu {
+    visibility:visible;
+    transition: 0.6s ease-in-out;
+  
+  }
+
+  }
+  
+  @media (min-width: 1100px) {
+    .header-area .main-nav .nav {
+      display: flex ;
+    }
+  }
+  
+    
+  
+      .footer-bottom{ 
+        background-color: rgb(236, 236, 243);
+        padding: 14px;
+        color: rgb(23, 23, 98);
+        font-weight: bold;
+        font-size:small;
+        display: flex;
+    }
+    .footer-top{ 
+        background-color: rgb(23, 23, 98);
+        padding: 7px;
+        color: white;
+        font-weight: bold;
+        font-size:small;
+        display: flex;
+    }
+    .footer-top p{
+        margin-left: 70%;
+        margin-top: 7px;
+    }
+    .footer-top a{
+        margin-left: 2px;
+    }
+    .footer-top h4{
+        margin-top: 7px;
+    
+    }
+    
+    
+       #copyright  {
+    margin-left: 38%;
+    
+       }
+  
+  
+  
+  
+      
+         form {
+          max-width: 1300px;
+          margin: 0 auto;
+          background-color: #f2f2f2;
+          padding: 20px;
+          border-radius: 5px;
+        }
+        
+        input {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 20px;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+        }
+        
+       form select {
+          display: block;
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 20px;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+        }
+  
+        button[type="submit"] {
+          display: block;
+          width: 100%;
+          padding: 10px;
+          background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+      
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+        }
+      
+        button[type="submit"]:hover {
+          background: linear-gradient(to top right, #ba1a38, #ac541e);
+      
+        }
+  
+        .t{
+        font-size: 250%;
+        color: red;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+  
+      .line{
+          display: inline;
+      }
+      input[type="checkbox"] {
+          width: 20px;
+          height: 20px;
+  
+        }
+        input[type="radio"] {
+          width: 15px;
+          height: 15px;
+        }
+  
+  
+        textarea {
+          font-size: 16px;
+          
+          width: 50%;
+          height: 150px;
+          
+          background-color: white;
+          color: black;
+          
+          border: 1px solid rgb(2, 2, 45);
+          border-radius: 5px;
+          
+          padding: 5px;
+  
+        }
+        em{
+          margin-left: 20px;
+          font-size: small;
+          margin-bottom: 10px;
+        }
